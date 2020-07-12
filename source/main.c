@@ -53,12 +53,12 @@ int main(int argc, char **argv)
     FsFileSystem tmpfs;
     u64 processID=0x010000000000000C; //process which has the save open (BCAT)
     u64 saveID=0x8000000000000090; //system save id (news)
-    const char *srcFile = "romfs:/D00000000000000000000_LS00000000000000010000.msgpack";
-    const char *destFile = "save:/data/D00000000000000000000_LS00000000000000010000.msgpack";
+    const char *srcFile = "romfs:/D00000000000000000000_NS00000000000000016012.msgpack";
+    const char *destFile = "save:/data/D00000000000000000000_NS00000000000000016012.msgpack";
 
     consoleInit(NULL);
 
-    printf("Fake News Injector\n\n\n");
+    printf("Custom BCAT Injector\n\n\n");
 
     printf("Trying for save ID=0x%016lx\n\n", saveID);
     
