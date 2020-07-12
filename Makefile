@@ -44,8 +44,8 @@ DATA		:=	data
 INCLUDES	:=	include
 ROMFS		:=	romfs
 
-APP_TITLE	:=	Fake News Injector
-APP_AUTHOR	:=	noahc3
+APP_TITLE	:=	Custom BCAT Injector
+APP_AUTHOR	:=	noahc3 & CrustySeanPro
 APP_VERSION	:=	1.0
 
 #---------------------------------------------------------------------------------
